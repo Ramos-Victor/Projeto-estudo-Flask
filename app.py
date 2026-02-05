@@ -5,8 +5,7 @@ app = Flask(__name__)
 #Define a rota home e renderiza
 @app.route('/')
 def index():
-    user = {'username': 'Victor', 'email' : 'victor@gmail.com'}
-    return render_template('index.html', title = 'Home', user = user)
+    return render_template('index.html', title = 'Home')
 
 #Define a rota form e renderiza caso o metodo for post
 @app.route('/form', methods=['POST', 'GET'])
