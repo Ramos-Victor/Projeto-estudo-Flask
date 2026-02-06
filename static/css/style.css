@@ -1,5 +1,20 @@
-/* Custom Styles for Health Tracker Dashboard */
+html, body {
+  height: 100%;
+  margin: 0;
+}
 
-main.container {
-    height: 560px
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
 }
